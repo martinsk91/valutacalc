@@ -1,0 +1,40 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.calc-container
+{
+/* background-color: blue; */
+min-height: 500px;
+padding: 50px;
+border-radius: 20px;
+border: 4px solid;
+}
+
+.ad-btn, .valutas
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.c-from, .c-to {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-from button, .c-to button {
+    width: 75px;
+}
+
+
+.answer {
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    background-color: red;
+}
