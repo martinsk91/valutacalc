@@ -1,4 +1,4 @@
-import { currency } from "./JS/valautas.mjs";
+import { currency } from "./valautas.mjs";
 const convertFromBtn = document.querySelector(".c-from-btn");
 const convertTOBtn =document.querySelector(".c-to-btn");
 const convertFromDiv = document.querySelector(".c-from");
